@@ -175,10 +175,6 @@ header {
    position: relative;
    margin-top: 25px;
  }
- .box.middle {
-   min-height: 485px;
-   margin-top:0px;
- }
  .box h3 {
    font-family: "Lato", Helvetica, Arial, sans-serif;
    font-weight: 600;
@@ -275,8 +271,11 @@ header {
   font-size:13px;
   margin-top: 30px;
 }
-.testimonials li.staggered {
-  margin-top:20px;
+
+/*Sign-Up*/
+.sign-up {
+  padding-bottom: 4em;
+  text-align: center;
 }
 @media (min-width: 768px) {
   .container {
@@ -311,6 +310,13 @@ header {
   .one-fourth {
     width:21%;
   }
+  .box.middle {
+    min-height: 485px;
+    margin-top:0px;
+  }
+  .testimonials li.staggered {
+    margin-top:20px;
+  }
 }
 @media (min-width: 1200px) {
   .container {
@@ -320,10 +326,7 @@ header {
 /* FOOTER */
 footer {
   background-color: #34495E;
-  background-image: linear-gradient(to top,
-     #3498DB 0%, #3498DB 50%, #34495E 50%, #34495E 100%);
   color: #FFFFFF;
-  height: 150px;
   position: relative;
   overflow: hidden;
   z-index: 0;
