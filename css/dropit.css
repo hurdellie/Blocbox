@@ -29,7 +29,7 @@
 }
 .dropit-inverse.dropit .dropit-submenu {
     position: absolute;
-    top: -140px;
+    top: -160px;
     right: 0; /* dropdown left or right */
     z-index: 1000;
     display: none;
