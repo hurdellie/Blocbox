@@ -373,8 +373,72 @@ footer .logo{
    }
  }
 
+ /*.grid {
+   display:grid;
+     grid-template-columns: 180px 1fr;
+     grid-template-areas:
+     "left-nav content";
+ }
+
+
+.dashboard {
+   background:#F7F7F7;
+ }
+
+ .left-nav {
+   grid-area: left-nav;
+   background: #34495E;
+   color:#FFFFFF;
+ }
+
+ .content {
+   grid-area: content;
+   margin: 0 auto;
+   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+   grid-auto-rows: minmax(150px, auto);
+   grid-gap; 10px;
+ }
+
+ .header {
+   grid-area: header;
+ }
+
+ /* LEFT NAVBAR SETTINGS */
+/*.left-nav .settings {
+   position:absolute;
+   background:#22303E;
+   width:180px;
+   bottom:0;
+   left:0;
+   right:0;
+   padding:10px 0;
+ }
+ .left-nav .settings img {
+   height:35px;
+   width:35px;
+   border-radius: 50%;
+   margin-left:10px;
+   display: inline-block;
+ }
+ .left-nav .settings p {
+   display: inline-block;
+   vertical-align: top;
+   padding-top: 8px;
+   font-weight: 400;
+   margin:0 0 0 10px;
+ }
+ .left-nav .settings a {
+   color:#FFFFFF;
+   text-decoration: none;
+   text-align: right;
+   float: right;
+   margin-right:10px;
+   margin-top:8px;
+ }
+
+
  /* DASHBOARD */
- .dashboard {
+.dashboard {
    background:#F7F7F7;
  }
  .left-nav {
@@ -390,7 +454,7 @@ footer .logo{
      -o-transform: translate(-280px,0); /** Opera **/
      -moz-transform: translate(-280px,0); /** Firefox **/
  }
- .left-nav.open {
+.left-nav.open {
    display:block;
    width:280px;
    background: #34495E;
@@ -405,7 +469,7 @@ footer .logo{
      -moz-transform: translate(0,0); /** Firefox **/
      z-index: 100;
  }
- .hamburger {
+.hamburger {
    position:absolute;
    z-index: 1000;
    background:#34495E;
@@ -432,14 +496,14 @@ footer .logo{
      -o-transform: translate(0,0); /** Opera **/
      -moz-transform: translate(0,0); /** Firefox **/
    }
-   .left-nav.open {
+.left-nav.open {
      width:14.66666667%;
      transform: translate(0,0);
      -webkit-transform: translate(0,0); /** Chrome & Safari **/
      -o-transform: translate(0,0); /** Opera **/
      -moz-transform: translate(0,0); /** Firefox **/
    }
-   .hamburger {
+.hamburger {
      display:none;
    }
  }
@@ -480,7 +544,7 @@ footer .logo{
  }
 
  /* LEFT NAVBAR SETTINGS */
- .left-nav .settings {
+.left-nav .settings {
    position:absolute;
    background:#22303E;
    width:100%;
@@ -513,7 +577,7 @@ footer .logo{
  }
 
  /* CONTENT */
- .content {
+.content {
    padding:6em 1% 1.5em;
    float:right;
    width:98%;
@@ -552,7 +616,7 @@ footer .logo{
  }
 
  /* Larger Mobile Devices */
- @media (min-width:460px) {
+@media (min-width:460px) {
    .content {
      padding:1.5em 1%;
      float:right;
@@ -567,7 +631,7 @@ footer .logo{
    }
  }
 /* Tablets */
- @media (min-width:768px) {
+@media (min-width:768px) {
    .content {
      padding:1.5em 5%;
      float:right;
@@ -583,7 +647,7 @@ footer .logo{
    }
  }
 /* Laptops and Desktops */
- @media (min-width:992px) {
+@media (min-width:992px) {
    .content {
      padding:1.5em 1%;
      float:right;
@@ -634,4 +698,4 @@ footer .logo{
 
 .active {
   background-color: #2ECC71;
-}
+} */
